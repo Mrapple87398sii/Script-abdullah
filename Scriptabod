@@ -1,0 +1,88 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("المنشئ MR APPLE NICE ", "DarkTheme")
+local Tab = Window:NewTab("سكربتات")
+local Section = Tab:NewSection("سكربتات")
+Section:NewButton("سكربت تطيير الناس ", "سكربت تطيير الناس ", function()
+print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+Section:NewButton("سكربت عبود antibang", "سكربت عبود antibang", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+end)
+Section:NewButton("bang", "bang", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+end)
+Section:NewButton("سكربت فيه جميع سكربتات", "سكربت جميع سكربتات", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+end)
+Section:NewButton("سكربت ماب بيوت فيه اشياء مميزه", "سكربت ماب بيوت فيه اشياء مميزه", function() print("Clicked")loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-R4D-TROLL-NO-KEY-17625"))()
+end)
+Section:NewButton("سكربت ماب بيوت عراقي" , "سكربت ماب بيوت عراقي", function() print("Clicked")loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Brookhave-lraq-20207"))()
+end)
+Section:NewButton("سكربت قوة سايتاما", "سكربت قوة سايتاما", function() print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Illusion-Script-12744"))()
+end)
+Section:NewButton("سكربت ماب fisch", "سكربت ماب fisch", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end)
+Section:NewButton("سكربت ادمن نادر", "سكربت ادمن نادر", function()
+print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/insanewanted333/commands/main/2023%3Ainsane333.exe"))();
+end)
+Section:NewButton("سكربت sky hub", "سكربت sky hub", function()
+print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+end)
+Section:NewButton("سكربت dark ماب بيوت", "سكربت dark ماب بيوت", function()
+print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+end)
+Section:NewButton("r15سكربت منحرففr15", "سكربت منحرفف", function()
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+end)
+Section:NewButton("سكربت انتقال تحت ماب للقتل", "سكربت انتقال تحت ماب للقتل", function()
+print("Clicked")-- Instant kill banger lol
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local hrp = character:WaitForChild("HumanoidRootPart")
+
+-- Store the original position to teleport back
+local originalPosition = hrp.Position
+
+-- Teleport to the target position
+local targetPosition = Vector3.new(103.00012969970703, -496.3302307128906, -24.618791580200195)
+hrp.CFrame = CFrame.new(targetPosition)
+
+-- Create a platform under the player (2 studs below) and make it black
+local platform = Instance.new("Part")
+platform.Size = Vector3.new(10, 1, 10)  -- Size of the platform
+platform.Anchored = true
+platform.CanCollide = true
+platform.Material = Enum.Material.SmoothPlastic
+platform.Color = Color3.fromRGB(0, 0, 0)  -- Black color for the platform
+platform.Position = targetPosition - Vector3.new(0, 2, 0)  -- Initial position 2 studs below the player
+platform.Parent = workspace
+
+-- Send the chat message "ez"
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ملل مافيه مستوى", "all")
+
+-- Teleport the player back to their original position after 5 seconds
+wait(5)
+hrp.CFrame = CFrame.new(originalPosition)
+
+-- Create a new ScreenGui for the label
+local playerGui = player:WaitForChild("PlayerGui")
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = playerGui
+
+-- Create the label with a cool font
+local label = Instance.new("TextLabel")
+label.Parent = screenGui
+label.Text = "تم صنع سكربت بواسطة عبود:)"
+label.Size = UDim2.new(0, 300, 0, 50)  -- Label size
+label.Position = UDim2.new(0.5, -150, 1, -60)  -- Position below the mobile screen
+label.Font = Enum.Font.Bangers  -- You can change this to other fonts like 'GothamBold', 'SciFi', etc.
+label.TextSize = 30
+label.BackgroundTransparency = 1  -- Transparent background
+label.TextColor3 = Color3.fromRGB(255, 255, 255)  -- White text
+label.TextStrokeTransparency = 0.5  -- Slight stroke for visibility
+end)
+Section:NewButton("سكربت افتور", "سكربت افتور", function() print("Clicked")loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universall-Avtor-Hub-12564"))()
+end)
+Section:NewButton("سكربت جاذبية", "سكربت جاذبية", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Underssky/GravityLayScript/refs/heads/main/MainGravityLay.txt"))()
+end)
+Section:NewButton("سكربت ادمن مشهور", "سكربت ادمن مشهور", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_InfYield", true))()
+end)
+Section:NewButton("سكربت حضن من الخلف", "سكربت حضن من الخلف", function() print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
+end)
